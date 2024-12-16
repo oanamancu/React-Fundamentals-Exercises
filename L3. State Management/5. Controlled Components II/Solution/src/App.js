@@ -16,8 +16,6 @@ const App = () => {
     setItems(items.slice(0, -1));
   };
 
-  const noItemsFound = () => items.length === 0;
-
   return (
     <div className="App">
       <header className="App-header">
