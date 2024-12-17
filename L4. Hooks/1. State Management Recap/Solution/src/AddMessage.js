@@ -14,7 +14,7 @@ const AddMessage = ({ onMessage }) => {
     event.preventDefault();
 
     // Call the callback function that was passed to this component from ChatWindow
-    onMessage(message);
+    onMessage({message});
     setMessage("");
   };
 

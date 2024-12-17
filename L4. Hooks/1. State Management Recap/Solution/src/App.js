@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import ChatWindow from "./ChatWindow";
-import { useState } from "react";
+import { useState } from "react"; 
 
 const users = [{ username: "Amy" }, { username: "John" }];
 
@@ -26,7 +26,7 @@ const App = () => {
       </header>
       <div className="container">
         {users.map((user) => (
-          <ChatWindow
+          <ChatWindow 
             key={user.username}
             user={user}
             messages={messages}
