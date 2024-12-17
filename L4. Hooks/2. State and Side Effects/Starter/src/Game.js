@@ -15,11 +15,11 @@ const Game = ({onCorrectAnswer}) => {
         }
     }
 
-    useEffect ( () => {
+    useEffect ( () => { console.log('aici1');
         setQuestion(makeNewQuestion());
     }, [])
 
-    const refresh = () => {
+    const refresh = () => { console.log('aici2');
         setQuestion(makeNewQuestion());
     }
 

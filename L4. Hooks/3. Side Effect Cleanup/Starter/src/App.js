@@ -2,7 +2,7 @@ import { useState } from "react";
 import ChildComponent from "./ChildComponent";
 import "./App.css";
 
-const App = () => {
+const App = () => { 
   const [currentToggle, setCurrentToggle] = useState(true);
 
   const handleToggle = (event) => {
